@@ -1,0 +1,3 @@
+comparison,auc_difference,ci_lower,ci_upper,ci_excludes_zero
+random_forest minus logistic_regression,0.011530136530136681,-0.01199904262404269,0.035907842157842165,False
+xgboost minus logistic_regression,0.014135864135864096,-0.008667998667998519,0.03790105727605727,False

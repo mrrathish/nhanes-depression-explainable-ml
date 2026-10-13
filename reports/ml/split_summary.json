@@ -1,0 +1,11 @@
+{
+  "eligible_n": 5210,
+  "positive_n": 661,
+  "train_n": 4168,
+  "train_positive": 529,
+  "test_n": 1042,
+  "test_positive": 132,
+  "random_seed": 42,
+  "test_fraction": 0.2,
+  "note": "Individual-level stratified split; not PSU-grouped or design-weighted."
+}

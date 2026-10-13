@@ -1,0 +1,4 @@
+model,cv_roc_auc_mean,cv_roc_auc_sd,cv_average_precision,cv_brier,best_params
+logistic_regression,0.7094310690539146,0.03024189812537689,0.26929476367139343,0.21540566942393785,"{'model__class_weight': 'balanced', 'model__C': 0.01}"
+random_forest,0.7241137208921776,0.023807312113281194,0.27403590324930693,0.10286973120471274,"{'model__n_estimators': 250, 'model__min_samples_leaf': 10, 'model__max_depth': 12, 'model__class_weight': None}"
+xgboost,0.7162523372245507,0.027059359906218078,0.26638708061528066,0.10391742587089539,"{'model__subsample': 0.8, 'model__reg_lambda': 10.0, 'model__n_estimators': 150, 'model__max_depth': 4, 'model__learning_rate': 0.05}"

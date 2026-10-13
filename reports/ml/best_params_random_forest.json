@@ -1,0 +1,6 @@
+{
+  "model__n_estimators": 250,
+  "model__min_samples_leaf": 10,
+  "model__max_depth": 12,
+  "model__class_weight": null
+}

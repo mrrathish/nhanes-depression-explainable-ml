@@ -1,0 +1,21 @@
+{
+  "demographic_records": 11933,
+  "adults_20_plus": 7809,
+  "valid_phq9": 5210,
+  "positive_cases": 661,
+  "negative_cases": 4549,
+  "unweighted_prevalence": 0.12687140115163148,
+  "interview_weighted_prevalence": 0.12326386635504454,
+  "complete_predictor_cases": 4448,
+  "missing_percent": {
+    "RIDAGEYR": 0.0,
+    "RIAGENDR": 0.0,
+    "RIDRETH3": 0.0,
+    "DMDEDUC2": 0.33,
+    "INDFMPIR": 16.9,
+    "SLD012": 2.29,
+    "sedentary_hours": 1.1,
+    "BMXBMI": 23.55,
+    "SMQ020": 0.37
+  }
+}

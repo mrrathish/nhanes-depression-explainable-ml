@@ -1,0 +1,21 @@
+{
+  "valid_phq9": 5210,
+  "complete_cases": 4448,
+  "complete_case_positive": 549,
+  "complete_case_negative": 3899,
+  "complete_case_prevalence": 0.12342625899280575,
+  "retention_rate": 0.8537428023032629,
+  "predictor_missingness_outcome_valid": {
+    "RIDAGEYR": 0.0,
+    "RIAGENDR": 0.0,
+    "RIDRETH3": 0.0,
+    "DMDEDUC2": 0.04,
+    "INDFMPIR": 11.98,
+    "SLD012": 1.65,
+    "sedentary_hours": 0.65,
+    "BMXBMI": 0.88,
+    "SMQ020": 0.13
+  },
+  "strata": 15,
+  "psus": 30
+}

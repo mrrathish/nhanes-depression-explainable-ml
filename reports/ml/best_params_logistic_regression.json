@@ -1,0 +1,4 @@
+{
+  "model__class_weight": "balanced",
+  "model__C": 0.01
+}

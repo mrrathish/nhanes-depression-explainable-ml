@@ -1,0 +1,69 @@
+QM 640 CAPSTONE
+RQ3 PREDICTION MODEL SAMPLE SIZE
+
+DATASET
+NHANES August 2021 - August 2023
+
+OUTCOME
+Elevated depressive symptoms: PHQ-9 >= 10
+
+PLANNING ASSUMPTIONS
+Observed prevalence: 0.1268714 
+Complete-case prevalence: 0.1234263 
+Predictor parameters: 15 
+Anticipated Cox-Snell R2: 0.1 
+Target shrinkage: 0.9 
+Training fraction: 0.8 
+
+MAIN PMSAMPSIZE RESULT
+NB: Assuming 0.05 acceptable difference in apparent & adjusted R-squared 
+NB: Assuming 0.05 margin of error in estimation of intercept 
+NB: Events per Predictor Parameter (EPP) assumes prevalence = 0.1268714  
+ 
+           Samp_size Shrinkage Parameter CS_Rsq Max_Rsq Nag_Rsq   EPP
+Criteria 1      1274      0.90        15    0.1   0.533   0.188 10.78
+Criteria 2       527      0.79        15    0.1   0.533   0.188  4.46
+Criteria 3       171      0.90        15    0.1   0.533   0.188  1.45
+Final           1274      0.90        15    0.1   0.533   0.188 10.78
+ 
+ Minimum sample size required for new model development based on user inputs = 1274, 
+ with 162 events (assuming an outcome prevalence = 0.1268714) and an EPP = 10.78 
+ 
+ 
+NHANES FEASIBILITY
+Available outcome-valid N: 5210 
+Available complete-case N: 4448 
+Available complete-case positive: 549 
+Available training N: 3558 
+Available test N: 890 
+Required development N: 1274 
+Required total N: 1593 
+Development feasible (unadjusted): TRUE 
+
+SENSITIVITY ANALYSIS
+ anticipated_r2 parameters prevalence shrinkage required_development_n
+           0.05         10  0.1268714       0.9                   1750
+           0.05         15  0.1268714       0.9                   2625
+           0.05         20  0.1268714       0.9                   3500
+           0.10         10  0.1268714       0.9                    850
+           0.10         15  0.1268714       0.9                   1274
+           0.10         20  0.1268714       0.9                   1699
+           0.15         10  0.1268714       0.9                    549
+           0.15         15  0.1268714       0.9                    823
+           0.15         20  0.1268714       0.9                   1097
+ required_total_n available_training_n feasible_unadjusted
+             2188                 3558                TRUE
+             3282                 3558                TRUE
+             4375                 3558                TRUE
+             1063                 3558                TRUE
+             1593                 3558                TRUE
+             2124                 3558                TRUE
+              687                 3558                TRUE
+             1029                 3558                TRUE
+             1372                 3558                TRUE
+
+LIMITATIONS
+- Anticipated R2 and parameter count require justification.
+- Calculations do not directly account for NHANES clustering or weighting.
+- Feasibility assumes an 80/20 split of the complete-case population.
+- Test-set adequacy must be assessed separately.

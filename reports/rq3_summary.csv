@@ -1,0 +1,2 @@
+"observed_prevalence","complete_case_prevalence","predictor_parameters","anticipated_r2","target_shrinkage","required_development_n","required_total_n","available_complete_n","available_training_n","available_test_n","feasible_unadjusted"
+0.126871401151631,0.123426258992806,15,0.1,0.9,1274,1593,4448,3558,890,TRUE

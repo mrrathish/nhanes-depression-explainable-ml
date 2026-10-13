@@ -1,0 +1,262 @@
+PHASE 4: PARSIMONIOUS SURVEY-ADJUSTED ASSOCIATION VALIDATION
+
+MODEL SAMPLE COUNTS
+   weights  rq              adjustment    n events psus strata design_df
+       MEC RQ1                   basic 5124    630   30     15        15
+       MEC RQ1                  income 4513    568   30     15        15
+       MEC RQ1               education 5122    629   30     15        15
+       MEC RQ1        income_education 4511    567   30     15        15
+       MEC RQ1 bmi_smoking_sensitivity 4471    553   30     15        15
+       MEC RQ2                   basic 5176    657   30     15        15
+       MEC RQ2                  income 4560    590   30     15        15
+       MEC RQ2               education 5174    656   30     15        15
+       MEC RQ2        income_education 4558    589   30     15        15
+       MEC RQ2 bmi_smoking_sensitivity 4517    575   30     15        15
+ Interview RQ1                   basic 5124    630   30     15        15
+ Interview RQ1                  income 4513    568   30     15        15
+ Interview RQ1               education 5122    629   30     15        15
+ Interview RQ1        income_education 4511    567   30     15        15
+ Interview RQ1 bmi_smoking_sensitivity 4471    553   30     15        15
+ Interview RQ2                   basic 5176    657   30     15        15
+ Interview RQ2                  income 4560    590   30     15        15
+ Interview RQ2               education 5174    656   30     15        15
+ Interview RQ2        income_education 4558    589   30     15        15
+ Interview RQ2 bmi_smoking_sensitivity 4517    575   30     15        15
+
+MODEL DIAGNOSTICS
+   weights  rq              adjustment    n design_df linear_rank
+       MEC RQ1                   basic 5124        15           4
+       MEC RQ1                  income 4513        15           5
+       MEC RQ1               education 5122        15           6
+       MEC RQ1        income_education 4511        15           7
+       MEC RQ1 bmi_smoking_sensitivity 4471        15           7
+       MEC RQ2                   basic 5176        15           4
+       MEC RQ2                  income 4560        15           5
+       MEC RQ2               education 5174        15           6
+       MEC RQ2        income_education 4558        15           7
+       MEC RQ2 bmi_smoking_sensitivity 4517        15           7
+ Interview RQ1                   basic 5124        15           4
+ Interview RQ1                  income 4513        15           5
+ Interview RQ1               education 5122        15           6
+ Interview RQ1        income_education 4511        15           7
+ Interview RQ1 bmi_smoking_sensitivity 4471        15           7
+ Interview RQ2                   basic 5176        15           4
+ Interview RQ2                  income 4560        15           5
+ Interview RQ2               education 5174        15           6
+ Interview RQ2        income_education 4558        15           7
+ Interview RQ2 bmi_smoking_sensitivity 4517        15           7
+ quadratic_rank linear_residual_df quadratic_residual_df
+              5                 12                    11
+              6                 11                    10
+              7                 10                     9
+              8                  9                     8
+              8                  9                     8
+              5                 12                    11
+              6                 11                    10
+              7                 10                     9
+              8                  9                     8
+              8                  9                     8
+              5                 12                    11
+              6                 11                    10
+              7                 10                     9
+              8                  9                     8
+              8                  9                     8
+              5                 12                    11
+              6                 11                    10
+              7                 10                     9
+              8                  9                     8
+              8                  9                     8
+
+CURVATURE AND JOINT EXPOSURE TESTS
+   weights  rq              adjustment    n curvature_F  curvature_p
+       MEC RQ1                   basic 5124  147.610566 1.024158e-07
+       MEC RQ1                  income 4513   67.083733 9.576299e-06
+       MEC RQ1               education 5122  133.885243 1.049381e-06
+       MEC RQ1        income_education 4511   69.015222 3.325108e-05
+       MEC RQ1 bmi_smoking_sensitivity 4471   68.246456 3.462845e-05
+       MEC RQ2                   basic 5176   13.248563 3.889047e-03
+       MEC RQ2                  income 4560    6.304542 3.086578e-02
+       MEC RQ2               education 5174    8.985369 1.501565e-02
+       MEC RQ2        income_education 4558    5.261321 5.096508e-02
+       MEC RQ2 bmi_smoking_sensitivity 4517    7.219298 2.763008e-02
+ Interview RQ1                   basic 5124  197.859335 2.237474e-08
+ Interview RQ1                  income 4513   91.512483 2.383090e-06
+ Interview RQ1               education 5122  179.967962 2.963221e-07
+ Interview RQ1        income_education 4511   93.049870 1.109976e-05
+ Interview RQ1 bmi_smoking_sensitivity 4471   87.830634 1.374814e-05
+ Interview RQ2                   basic 5176   12.355838 4.840093e-03
+ Interview RQ2                  income 4560    7.459831 2.114729e-02
+ Interview RQ2               education 5174    8.413057 1.758028e-02
+ Interview RQ2        income_education 4558    6.091213 3.882903e-02
+ Interview RQ2 bmi_smoking_sensitivity 4517    8.359517 2.015944e-02
+ overall_exposure_F overall_exposure_p                          curvature_note
+          76.065017       3.620122e-07 design-based Wald F; residual survey df
+          37.590478       2.229910e-05 design-based Wald F; residual survey df
+          70.766642       3.124243e-06 design-based Wald F; residual survey df
+          38.828976       7.608327e-05 design-based Wald F; residual survey df
+          35.300158       1.073156e-04 design-based Wald F; residual survey df
+           8.567235       5.712768e-03 design-based Wald F; residual survey df
+           9.342684       5.148703e-03 design-based Wald F; residual survey df
+           7.899074       1.045213e-02 design-based Wald F; residual survey df
+           9.697815       7.271679e-03 design-based Wald F; residual survey df
+           8.325491       1.109234e-02 design-based Wald F; residual survey df
+          99.327459       9.107139e-08 design-based Wald F; residual survey df
+          47.257568       8.018702e-06 design-based Wald F; residual survey df
+          90.999935       1.070145e-06 design-based Wald F; residual survey df
+          48.167992       3.456396e-05 design-based Wald F; residual survey df
+          44.144149       4.765033e-05 design-based Wald F; residual survey df
+           8.612858       5.611934e-03 design-based Wald F; residual survey df
+           9.786528       4.420984e-03 design-based Wald F; residual survey df
+           7.970986       1.018363e-02 design-based Wald F; residual survey df
+           9.829125       6.999405e-03 design-based Wald F; residual survey df
+           8.226898       1.145447e-02 design-based Wald F; residual survey df
+                            overall_note residual_df
+ design-based Wald F; residual survey df          11
+ design-based Wald F; residual survey df          10
+ design-based Wald F; residual survey df           9
+ design-based Wald F; residual survey df           8
+ design-based Wald F; residual survey df           8
+ design-based Wald F; residual survey df          11
+ design-based Wald F; residual survey df          10
+ design-based Wald F; residual survey df           9
+ design-based Wald F; residual survey df           8
+ design-based Wald F; residual survey df           8
+ design-based Wald F; residual survey df          11
+ design-based Wald F; residual survey df          10
+ design-based Wald F; residual survey df           9
+ design-based Wald F; residual survey df           8
+ design-based Wald F; residual survey df           8
+ design-based Wald F; residual survey df          11
+ design-based Wald F; residual survey df          10
+ design-based Wald F; residual survey df           9
+ design-based Wald F; residual survey df           8
+ design-based Wald F; residual survey df           8
+
+COMMON-SAMPLE COMPARISONS
+   weights  rq              adjustment    n basic_curvature_p_same_sample
+       MEC RQ1                  income 4513                  3.805689e-07
+       MEC RQ1               education 5122                  1.008363e-07
+       MEC RQ1        income_education 4511                  3.747404e-07
+       MEC RQ1 bmi_smoking_sensitivity 4471                  1.777687e-07
+       MEC RQ2                  income 4560                  1.105536e-03
+       MEC RQ2               education 5174                  3.955700e-03
+       MEC RQ2        income_education 4558                  1.112441e-03
+       MEC RQ2 bmi_smoking_sensitivity 4517                  1.079570e-03
+ Interview RQ1                  income 4513                  8.510130e-08
+ Interview RQ1               education 5122                  2.173590e-08
+ Interview RQ1        income_education 4511                  8.252444e-08
+ Interview RQ1 bmi_smoking_sensitivity 4471                  5.071701e-08
+ Interview RQ2                  income 4560                  8.599964e-04
+ Interview RQ2               education 5174                  4.942956e-03
+ Interview RQ2        income_education 4558                  8.599777e-04
+ Interview RQ2 bmi_smoking_sensitivity 4517                  9.528391e-04
+ adjusted_curvature_p_same_sample basic_overall_p_same_sample
+                     9.576299e-06                1.165244e-06
+                     1.049381e-06                3.634971e-07
+                     3.325108e-05                1.180090e-06
+                     3.462845e-05                6.570354e-07
+                     3.086578e-02                2.437335e-03
+                     1.501565e-02                5.728081e-03
+                     5.096508e-02                2.434256e-03
+                     2.763008e-02                2.797165e-03
+                     2.383090e-06                3.320914e-07
+                     2.963221e-07                8.933875e-08
+                     1.109976e-05                3.279723e-07
+                     1.374814e-05                2.061271e-07
+                     2.114729e-02                2.042449e-03
+                     1.758028e-02                5.621652e-03
+                     3.882903e-02                2.023778e-03
+                     2.015944e-02                2.695568e-03
+ adjusted_overall_p_same_sample
+                   2.229910e-05
+                   3.124243e-06
+                   7.608327e-05
+                   1.073156e-04
+                   5.148703e-03
+                   1.045213e-02
+                   7.271679e-03
+                   1.109234e-02
+                   8.018702e-06
+                   1.070145e-06
+                   3.456396e-05
+                   4.765033e-05
+                   4.420984e-03
+                   1.018363e-02
+                   6.999405e-03
+                   1.145447e-02
+
+LINEAR EXPOSURE COEFFICIENTS
+   weights  rq              adjustment  shape    n residual_df        term
+       MEC RQ1                   basic linear 5124          12 sleep_hours
+       MEC RQ1                  income linear 4513          11 sleep_hours
+       MEC RQ1               education linear 5122          10 sleep_hours
+       MEC RQ1        income_education linear 4511           9 sleep_hours
+       MEC RQ1 bmi_smoking_sensitivity linear 4471           9 sleep_hours
+       MEC RQ2                   basic linear 5176          12   sed_hours
+       MEC RQ2                  income linear 4560          11   sed_hours
+       MEC RQ2               education linear 5174          10   sed_hours
+       MEC RQ2        income_education linear 4558           9   sed_hours
+       MEC RQ2 bmi_smoking_sensitivity linear 4517           9   sed_hours
+ Interview RQ1                   basic linear 5124          12 sleep_hours
+ Interview RQ1                  income linear 4513          11 sleep_hours
+ Interview RQ1               education linear 5122          10 sleep_hours
+ Interview RQ1        income_education linear 4511           9 sleep_hours
+ Interview RQ1 bmi_smoking_sensitivity linear 4471           9 sleep_hours
+ Interview RQ2                   basic linear 5176          12   sed_hours
+ Interview RQ2                  income linear 4560          11   sed_hours
+ Interview RQ2               education linear 5174          10   sed_hours
+ Interview RQ2        income_education linear 4558           9   sed_hours
+ Interview RQ2 bmi_smoking_sensitivity linear 4517           9   sed_hours
+    estimate         se      p_value      ci_lower    ci_upper odds_ratio
+ -0.25319823 0.05444732 0.0005601261 -0.3718287479 -0.13456771         NA
+ -0.26974554 0.06550470 0.0017065976 -0.4139204114 -0.12557068         NA
+ -0.25687333 0.05370599 0.0007424206 -0.3765377418 -0.13720893         NA
+ -0.26926735 0.06540805 0.0026106471 -0.4172306485 -0.12130405         NA
+ -0.23430700 0.06218416 0.0044303997 -0.3749773432 -0.09363665         NA
+  0.02345919 0.01579285 0.1632205893 -0.0109504778  0.05786886   1.023737
+  0.05065217 0.01429360 0.0046027372  0.0191921701  0.08211216   1.051957
+  0.03458156 0.01571913 0.0524441088 -0.0004428568  0.06960597   1.035186
+  0.05225490 0.01419337 0.0050625691  0.0201472615  0.08436254   1.053644
+  0.04729940 0.01576572 0.0149529269  0.0116348584  0.08296393   1.048436
+ -0.26563372 0.05703841 0.0005536384 -0.3899097353 -0.14135771         NA
+ -0.28221809 0.06786819 0.0015938516 -0.4315949756 -0.13284121         NA
+ -0.26923445 0.05598620 0.0007139761 -0.3939794788 -0.14448941         NA
+ -0.28125355 0.06762032 0.0024502425 -0.4342213488 -0.12828576         NA
+ -0.25014673 0.06408823 0.0036020354 -0.3951243818 -0.10516908         NA
+  0.02576013 0.01633424 0.1407646591 -0.0098291222  0.06134937   1.026095
+  0.05246526 0.01489854 0.0047857800  0.0196738029  0.08525672   1.053866
+  0.03787391 0.01629278 0.0424401487  0.0015713381  0.07417648   1.038600
+  0.05445722 0.01489285 0.0052632371  0.0207672529  0.08814718   1.055967
+  0.04858125 0.01640432 0.0159209052  0.0114721011  0.08569040   1.049781
+  or_lower or_upper
+        NA       NA
+        NA       NA
+        NA       NA
+        NA       NA
+        NA       NA
+ 0.9891093 1.059576
+ 1.0193775 1.085578
+ 0.9995572 1.072086
+ 1.0203516 1.088023
+ 1.0117028 1.086503
+        NA       NA
+        NA       NA
+        NA       NA
+        NA       NA
+        NA       NA
+ 0.9902190 1.063270
+ 1.0198686 1.088997
+ 1.0015726 1.076997
+ 1.0209844 1.092149
+ 1.0115382 1.089469
+
+CAUTIONS
+- These are cross-sectional associations, not causal effects.
+- Confirm NHANES 2021-2023 cycle-specific weights and codebooks.
+- MEC models are primary candidates; interview models sensitivity only.
+- Survey residual df constrain Wald-test reliability.
+- Curvature and overall association are different hypothesis tests.
+- Different adjustment sets may have different complete-case samples.
+- Curves are conditional predictions at reference covariates, not marginal.
+- Income/education adjustment is not automatically a causal adjustment set.
+- No automatic multiple-testing correction; interpret exploratory tests cautiously.

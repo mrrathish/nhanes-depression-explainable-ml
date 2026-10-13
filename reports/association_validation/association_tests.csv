@@ -1,0 +1,21 @@
+"weights","rq","adjustment","n","curvature_F","curvature_p","overall_exposure_F","overall_exposure_p","curvature_note","overall_note","residual_df"
+"MEC","RQ1","basic",5124,147.610565833536,1.0241584709917e-07,76.0650174351296,3.62012160012453e-07,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",11
+"MEC","RQ1","income",4513,67.0837326502258,9.57629949845302e-06,37.5904783699855,2.22991049497837e-05,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",10
+"MEC","RQ1","education",5122,133.885243103494,1.04938133767756e-06,70.7666423997136,3.12424345851163e-06,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",9
+"MEC","RQ1","income_education",4511,69.0152215500137,3.32510796936169e-05,38.8289761728826,7.60832742946791e-05,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",8
+"MEC","RQ1","bmi_smoking_sensitivity",4471,68.2464558123396,3.4628454720592e-05,35.3001578044146,0.00010731558278895,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",8
+"MEC","RQ2","basic",5176,13.2485626375662,0.00388904719613234,8.56723548831959,0.0057127684934848,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",11
+"MEC","RQ2","income",4560,6.30454155503373,0.0308657786922559,9.34268397566004,0.0051487034080811,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",10
+"MEC","RQ2","education",5174,8.98536908986804,0.0150156469815367,7.89907416447134,0.0104521263791491,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",9
+"MEC","RQ2","income_education",4558,5.26132148917693,0.0509650829752124,9.69781545014634,0.00727167939100861,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",8
+"MEC","RQ2","bmi_smoking_sensitivity",4517,7.2192976203593,0.0276300781713827,8.32549078426877,0.0110923376263824,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",8
+"Interview","RQ1","basic",5124,197.859334774427,2.23747423529713e-08,99.3274588465862,9.10713916178824e-08,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",11
+"Interview","RQ1","income",4513,91.5124834411382,2.38308954371888e-06,47.2575679606531,8.01870158461582e-06,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",10
+"Interview","RQ1","education",5122,179.967961654085,2.9632214916294e-07,90.9999352975733,1.07014459897672e-06,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",9
+"Interview","RQ1","income_education",4511,93.0498699686643,1.10997582739058e-05,48.1679921546896,3.45639587182727e-05,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",8
+"Interview","RQ1","bmi_smoking_sensitivity",4471,87.830634253898,1.37481393435101e-05,44.1441488189269,4.7650330135982e-05,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",8
+"Interview","RQ2","basic",5176,12.3558376057423,0.00484009253814046,8.61285755683958,0.00561193358075672,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",11
+"Interview","RQ2","income",4560,7.45983075684941,0.0211472942023104,9.78652809253798,0.00442098415187547,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",10
+"Interview","RQ2","education",5174,8.41305684790393,0.0175802819095017,7.97098599905953,0.0101836332304425,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",9
+"Interview","RQ2","income_education",4558,6.09121296053289,0.0388290289072706,9.82912504240108,0.00699940544854895,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",8
+"Interview","RQ2","bmi_smoking_sensitivity",4517,8.3595167800906,0.0201594390885244,8.22689773197854,0.0114544659746645,"design-based Wald F; residual survey df","design-based Wald F; residual survey df",8

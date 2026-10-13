@@ -1,0 +1,6 @@
+{
+  "model": "logistic_regression",
+  "training_n": 4168,
+  "events": 529,
+  "note": "Preliminary model; script 08 replaces it with tuned development-only model."
+}

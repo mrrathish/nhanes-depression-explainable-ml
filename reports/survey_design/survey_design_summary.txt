@@ -1,0 +1,70 @@
+NHANES SURVEY DESIGN VALIDATION
+
+SURVEY PREVALENCE
+                     population sample_n prevalence prevalence_percent
+1 Interview-weighted PHQ sample     5210  0.1232639           12.32639
+2       MEC-weighted PHQ sample     5210  0.1220011           12.20011
+  standard_error  ci_lower  ci_upper design_effect effective_n_approx
+1    0.007903406 0.1077735 0.1387543      3.010870           1730.397
+2    0.007955313 0.1064090 0.1375933      3.077668           1692.840
+
+RQ1: SLEEP REGRESSION
+
+Call:
+svyglm(formula = phq9_total ~ SLD012 + RIDAGEYR + factor(RIAGENDR), 
+    design = rq1_design, family = gaussian())
+
+Survey design:
+subset(interview_phq, !is.na(SLD012) & !is.na(RIDAGEYR) & !is.na(RIAGENDR))
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        7.655421   0.639684  11.968 4.98e-08 ***
+SLD012            -0.265634   0.057038  -4.657 0.000554 ***
+RIDAGEYR          -0.046814   0.006107  -7.666 5.81e-06 ***
+factor(RIAGENDR)2  1.177402   0.138058   8.528 1.94e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 19.22844)
+
+Number of Fisher Scoring iterations: 2
+
+
+RQ2: SEDENTARY LOGISTIC REGRESSION
+
+Call:
+svyglm(formula = elevated_symptoms ~ sedentary_hours + RIDAGEYR + 
+    factor(RIAGENDR), design = rq2_design, family = quasibinomial())
+
+Survey design:
+subset(interview_phq, !is.na(sedentary_hours) & !is.na(RIDAGEYR) & 
+    !is.na(RIAGENDR))
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       -1.406562   0.271081  -5.189 0.000226 ***
+sedentary_hours    0.025760   0.016334   1.577 0.140765    
+RIDAGEYR          -0.021198   0.003797  -5.582 0.000119 ***
+factor(RIAGENDR)2  0.500058   0.106834   4.681 0.000532 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for quasibinomial family taken to be 1.00145)
+
+Number of Fisher Scoring iterations: 5
+
+
+INTERVIEW VS MEC
+                     population sample_n prevalence_percent  ci_lower  ci_upper
+1 Interview-weighted PHQ sample     5210           12.32639 0.1077735 0.1387543
+2       MEC-weighted PHQ sample     5210           12.20011 0.1064090 0.1375933
+  design_effect effective_n_approx
+1      3.010870           1730.397
+2      3.077668           1692.840
+
+INTERPRETATION NOTES
+Survey estimates use strata, PSU and weights.
+Effective N is prevalence-estimator-specific.
+No universal design effect is assumed.
+NHANES cycle-specific weight guidance must be verified.

@@ -1,0 +1,38 @@
+{
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "assumptions": {
+    "prevalence": 0.1269,
+    "train_fraction": 0.8
+  },
+  "results": {
+    "RQ1": {
+      "method": "Fisher z correlation approximation",
+      "effect_size_r": 0.2,
+      "required_n": 194
+    },
+    "RQ2": {
+      "method": "Logistic Wald information approximation",
+      "required_n": 605,
+      "odds_ratio": 1.15,
+      "exposure_sd_hours": 2.5,
+      "expected_prevalence": 0.1269,
+      "achieved_power_approx": 0.8000256081832207
+    },
+    "RQ4": {
+      "method": "Hanley-McNeil AUC power approximation",
+      "required_test_n": 146,
+      "expected_auc": 0.7,
+      "null_auc": 0.5,
+      "expected_positive_cases": 19,
+      "achieved_power_approx": 0.8041682393537899
+    }
+  },
+  "available": {
+    "outcome_n": 5210,
+    "complete_case_n": 4448,
+    "complete_case_positive": 549,
+    "planned_test_n": 889,
+    "approximate_test_positive": 110
+  }
+}
